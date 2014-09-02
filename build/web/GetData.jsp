@@ -11,5 +11,16 @@
         array.put(tmparr);
     }
     data.put("data", array);
+  //  out.println(data);
+    
+    //-------------for editor-----------
+    for(int i=0;i<10;i++){
+        JSONObject tmp = new JSONObject();
+        tmp.put("id", i);
+        tmp.put("name","user-"+i);
+        tmp.put("email", "user-"+i+"@gamil.com");
+        array.put(tmp);
+    }
+    data.put("data", array);
     out.println(data);
 %>
