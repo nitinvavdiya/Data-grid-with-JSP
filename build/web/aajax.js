@@ -6,7 +6,7 @@
 
 
 $(document).ready(function() {
-    $('#mytbl').dataTable( {
+    $('#mytbl').dataTable({
         "ajax": 'GetData.jsp'
-    } );
-} );
+    });
+});
